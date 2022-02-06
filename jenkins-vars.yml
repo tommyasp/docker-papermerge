@@ -1,7 +1,7 @@
 ---
 
 # jenkins variables
-project_name: docker-papermerge
+project_name: aspdocupaper
 external_type: github_stable
 release_type: stable
 release_tag: latest
@@ -9,14 +9,14 @@ ls_branch: master
 repo_vars:
   - EXT_GIT_BRANCH = 'master'
   - EXT_USER = 'ciur'
-  - EXT_REPO = 'papermerge'
-  - BUILD_VERSION_ARG = 'PAPERMERGE_RELEASE'
-  - LS_USER = 'linuxserver'
-  - LS_REPO = 'docker-papermerge'
-  - CONTAINER_NAME = 'papermerge'
-  - DOCKERHUB_IMAGE = 'linuxserver/papermerge'
-  - DEV_DOCKERHUB_IMAGE = 'lsiodev/papermerge'
-  - PR_DOCKERHUB_IMAGE = 'lspipepr/papermerge'
+  - EXT_REPO = 'aspdocupaper'
+  - BUILD_VERSION_ARG = 'ASPDOCUPAPER_RELEASE'
+  - LS_USER = 'tommyasp'
+  - LS_REPO = 'aspdocupaper'
+  - CONTAINER_NAME = 'aspdocupaper'
+  - DOCKERHUB_IMAGE = 'tommyasp/aspdocupaper'
+  - DEV_DOCKERHUB_IMAGE = 'lsiodev/aspdocupaper'
+  - PR_DOCKERHUB_IMAGE = 'lspipepr/aspdocupaper'
   - DIST_IMAGE = 'ubuntu'
   - MULTIARCH='true'
   - CI='true'
